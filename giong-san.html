@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giống sắn Việt Nam</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1><i class="fas fa-seedling"></i> Các giống sắn phổ biến tại Việt Nam</h1>
+      <nav class="nav">
+        <a href="index.html">Trang chủ</a>
+        <a href="rep-sap.html">Rệp sáp</a>
+        <a href="giong-san.html" class="active">Giống sắn</a>
+        <a href="giai-dap.html">Giải đáp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Tìm giống sắn..." onkeyup="searchText()">
+    </div>
+
+    <section class="card">
+        <h1>Tóm tắt</h1>
+        <p>Nghiên cứu được thực hiện nhằm xây dựng bộ tiêu chí nhận dạng hình thái phục vụ mô tả và đánh giá một số giống sắn (Manihot esculenta Crantz) phổ biến tại Việt Nam. Kết quả nghiên cứu có thể hỗ trợ nông dân, nhà chọn giống và cán bộ kỹ thuật nhận diện giống trực tiếp tại hiện trường, từ đó nâng cao hiệu quả sản xuất và công tác bảo tồn nguồn gen. Trong bối cảnh đa dạng sinh học cây sắn ngày càng gia tăng, việc xác định chính xác giống có ý nghĩa thiết thực trong chọn tạo, quy hoạch vùng trồng và ứng phó với biến đổi khí hậu.</p>
+        <p>Trên cơ sở 20 tính trạng hình thái điển hình được lựa chọn theo hướng dẫn của Liên minh Quốc tế Bảo hộ giống cây trồng mới (UPOV, 2013) và Viện Nông nghiệp Nhiệt đới Quốc tế (IITA, 2010), nhóm nghiên cứu đã tiến hành mô tả chi tiết sáu giống sắn đang được trồng phổ biến tại Việt Nam. Các đặc điểm hình thái bao gồm lá đỉnh, lá trưởng thành, thân và rễ củ, tập trung vào các yếu tố như màu sắc, hình dạng, số thùy lá, hình thái rễ, màu vỏ và màu cùi. Dựa trên các chỉ tiêu này, một cây phân loại sơ đồ được xây dựng, giúp quá trình nhận dạng giống trên đồng ruộng trở nên trực quan và hiệu quả hơn.</p>
+        <p>Một số đặc điểm nổi bật ghi nhận được như: lá đỉnh không có lông tơ, lá trưởng thành màu xanh đậm, thân màu nâu nhạt, sinh trưởng thẳng. Giống KM94 có lá đỉnh xanh tím, bảy thùy lá hình mác, cuống và gân lá màu xanh đỏ, sẹo lá nổi rõ, củ vỏ nâu nhạt, cùi trắng. KM140 đặc trưng bởi lá đỉnh đỏ tía, gân lá xanh lục, cuống xanh đỏ, sẹo lá bán nhô, rễ hình trụ. Giống KM98-7 có chín thùy lá, lá chét trung tâm thẳng hoặc dạng dải, rễ màu nâu sẫm; trong khi đó, KM98-5 có năm thùy lá, lá chét hình mác, rễ màu kem. Hai giống SM937-26 và XVP thể hiện sự khác biệt ở màu sắc cuống và gân lá; đáng chú ý, SM937-26 có củ hình dạng không đều, cuống củ rõ rệt.</p>
+        <p>Kết quả nghiên cứu khẳng định khả năng ứng dụng của phương pháp nhận dạng hình thái trong phân biệt giống sắn. Tuy nhiên, để nâng cao độ chính xác và mở rộng phạm vi ứng dụng, cần kết hợp các đặc điểm hình thái với dữ liệu di truyền phân tử trong các nghiên cứu tiếp theo. Hướng tiếp cận tích hợp này hứa hẹn mang lại công cụ toàn diện hơn cho công tác chọn tạo và phát triển giống sắn tại Việt Nam.</p>
+        <h1>A.Đặt vấn đề</h1>
+        <P>Cây sắn (Manihot esculenta Crantz) là cây trồng nhiệt đới quan trọng toàn cầu, có nguồn gốc từ lưu vực sông Amazon (Nam Mỹ). Nhờ khả năng thích nghi rộng, chịu hạn tốt và yêu cầu đầu tư thấp, sắn hiện là nguồn tinh bột chính của hơn 800 triệu người, đồng thời là nguyên liệu cho chăn nuôi, công nghiệp thực phẩm, ethanol sinh học và nhiều lĩnh vực chế biến.</P>
+        <p>Tại Việt Nam, sắn được xem là cây chiến lược, góp phần đảm bảo an ninh lương thực, phát triển nông nghiệp hàng hóa và sinh kế vùng trung du – miền núi. Năm 2024, diện tích trồng sắn đạt khoảng 530.000 ha, sản lượng trên 9,8 triệu tấn. Trong 5 tháng đầu năm 2025, xuất khẩu sắn và sản phẩm đạt 2,3 triệu tấn, trị giá 711,5 triệu USD, tăng mạnh so với cùng kỳ năm trước; Trung Quốc chiếm hơn 93% thị phần. Tuy nhiên, giá xuất khẩu bình quân giảm còn khoảng 304 USD/tấn, đòi hỏi nâng cao chất lượng giống và hiệu quả chuỗi giá trị.</p>
+        <p>Nhận diện chính xác giống sắn là yêu cầu then chốt cho chọn giống, sản xuất giống nguyên chủng, bảo tồn nguồn gen và đảm bảo đồng nhất nguyên liệu. Sai lệch trong nhận dạng có thể dẫn đến giảm năng suất, chất lượng kém ổn định, gia tăng sâu bệnh, thậm chí mất giống bản địa quý. Tại Việt Nam, nhiều giống sắn có hình thái tương đồng, khiến phương pháp nhận dạng truyền thống dựa vào kinh nghiệm dễ sai lệch, nhất là trong sản xuất thâm canh quy mô lớn.</p>
+        <p>Nghiên cứu trước đây (Hoàng Kim & Phạm Văn Biên, 1995; Trần Ngọc Ngoạn, 2007) cho thấy các đặc điểm hình thái như hình dạng và màu lá đỉnh non, số thùy lá, màu gân và cuống lá, màu thân, vỏ và cùi củ… có giá trị phân loại, song vẫn chịu ảnh hưởng bởi điều kiện sinh thái và mùa vụ. Trên thế giới, các quốc gia như Brazil, Thái Lan, Colombia đã kết hợp mô tả hình thái theo tiêu chuẩn UPOV/IITA với chỉ thị phân tử (SSR, SNP, DNA barcoding) để tăng độ chính xác. Ở Việt Nam, dù đã có nghiên cứu bước đầu, hệ thống phân loại giống vẫn chưa đồng bộ và chuẩn hóa.</p>
+        <p>Trong bối cảnh đó, việc xây dựng bộ tiêu chí nhận diện giống dựa trên chỉ thị hình thái ổn định, dễ quan sát ngoài đồng ruộng là cần thiết, phục vụ sản xuất bền vững và làm nền tảng bảo tồn, chọn tạo giống thích ứng. Nghiên cứu này nhằm:</p>
+        <p>(1) Mô tả, hệ thống hóa các đặc điểm hình thái của một số giống sắn phổ biến;</p>
+        <p>(2) Thiết lập bộ tiêu chí nhận diện ngoài thực địa phục vụ sản xuất và khuyến nông;</p>
+        <p>(3) Góp phần xây dựng cơ sở dữ liệu giống sắn nội địa phục vụ quản lý, bảo tồn và chọn tạo.</p>
+
+        <h1>B.Vật liệu và phương pháp nghiên cứu</h1>
+
+        <h2>2.1. Vật liệu nghiên cứu</h2>
+        <p>Trong nghiên cứu này, sáu giống sắn phổ biến nhất hiện đang được trồng tại Việt Nam đã được lựa chọn dựa trên các báo cáo và tổng hợp của Howeler et al. (2006) và Robinson et al. (2013). Đây là những giống có diện tích canh tác lớn, đóng vai trò quan trọng trong sản xuất sắn thương mại, cũng như trong các chương trình chọn tạo và cải thiện giống. Các thông tin về nguồn gốc, nơi chọn tạo, thời gian giới thiệu và đặc điểm chính của từng giống được trình bày trong Bảng 1 dưới đây, nhằm cung cấp cơ sở cho việc đánh giá đặc điểm nông sinh học và tiềm năng ứng dụng trong các vùng sinh thái khác nhau.</p>
+        <img src="bang-2.img" alt="Danh sách 6 giống sắn được trồng phổ biến ở Việt Nam" class="responsive-img">
+        <p>Các giống sắn được trình bày trong Bảng 1 đại diện cho nhóm giống phổ biến đang được trồng ở nhiều vùng sinh thái của Việt Nam. Trong đó, KM94 là giống nhập nội từ Thái Lan có thời gian phổ biến rộng rãi nhất, nổi bật với năng suất và hàm lượng tinh bột cao, phù hợp cho cả chế biến tinh bột và tiêu thụ tươi. KM140 và KM98-5 là các giống do Việt Nam chọn tạo, có ưu điểm là năng suất cao, tính đa dụng, và thời gian sinh trưởng ngắn, giúp linh hoạt trong bố trí mùa vụ. KM98-7 là giống lai từ Thái Lan với khả năng thích nghi tốt ở các tỉnh phía Nam và Tây Nguyên. SM937-26 là giống từ nguồn gen quốc tế (CIAT), có năng suất ổn định và hàm lượng tinh bột cao, phù hợp cho công nghiệp chế biến. Xanh Vĩnh Phú là giống địa phương, tuy chưa có đặc điểm nông sinh học được mô tả đầy đủ nhưng có ý nghĩa quan trọng trong bảo tồn và nghiên cứu nguồn gen.</p>
+        <p>Sự khác biệt về nguồn gốc và đặc điểm của các giống này phản ánh định hướng phát triển sắn ở Việt Nam, vừa tập trung khai thác giống nhập nội có hiệu quả kinh tế cao, vừa chú trọng nghiên cứu chọn tạo giống trong nước để thích ứng với điều kiện sản xuất đa dạng và nhu cầu thị trường. Việc hiểu rõ các đặc tính sinh học và nông học của từng giống sẽ hỗ trợ lựa chọn giống phù hợp, nâng cao năng suất, chất lượng sản phẩm và hiệu quả canh tác.</p>
+
+        <h2>2.2. Phương pháp nghiên cứu</h2>
+        <h3>2.2.1. Tiêu chuẩn và nguồn giống nghiên cứu</h3>
+        <p>Quy trình khảo nghiệm giống sắn được thực hiện theo Quy chuẩn kỹ thuật Quốc gia QCVN 01-61:2011/BNNPTNT về khảo nghiệm giá trị canh tác và sử dụng giống sắn, do Bộ Nông nghiệp và Phát triển Nông thôn ban hành (2011). Các mẫu giống nghiên cứu bao gồm 6 giống phổ biến: KM 94, KM 140, KM 98-7, KM 98-5, SM 937-26, và giống địa phương XVP, được thu thập từ tập đoàn giống tại Trung tâm Nghiên cứu và Phát triển cây có củ (Thanh Trì, Hà Nội) và bảo tồn, nhân giống tại khu vực thí nghiệm của Trung tâm Nghiên cứu và Phát triển cây có múi (Chương Mỹ, Hà Nội). Việc trồng và chăm sóc tuân thủ nghiêm ngặt quy trình khảo nghiệm giống sắn chuẩn nhằm đảm bảo tính đồng nhất môi trường sinh trưởng, giảm thiểu sai số và biến động không mong muốn trong dữ liệu thu thập.</p>
+
+        <h3>2.2.2. Đặc điểm khảo sát và mô tả hình thái</h3>
+        <p>Nghiên cứu tập trung vào 20 đặc điểm hình thái chủ yếu mô tả giống sắn, được lựa chọn dựa trên bộ tiêu chuẩn mô tả của UPOV (2013), CIAT và Bioversity International, đồng thời tham khảo các nghiên cứu quốc tế uy tín (IITA, 2010). Bảng chỉ thị hình thái này (Bảng 2 – Phiên bản nâng cao) bao gồm các đặc điểm định tính và định lượng với mã số chuẩn (theo CIAT/BI), được sắp xếp theo nhóm cơ quan cây (lá đỉnh, lá trưởng thành, cuống lá, thân, củ), tạo thuận lợi cho việc ứng dụng trong nghiên cứu, chọn giống và bảo tồn tài nguyên gen.. Những đặc điểm chủ yếu và chuẩn đo bao gồm (tóm tắt — chi tiết đo ở 2.2.4):</p>
+        <p>Lá đỉnh: L1 (màu sắc lá đỉnh, định tính + CIELab), L2 (% lông biểu bì), …</p>
+        <p>Lá trưởng thành: L3 (hình thái thùy), L4 (màu sắc lá), L5 (số lượng thùy) …</p>
+        <p>Cuống lá: P1 (màu cuống), P2 (góc cuống) …</p>
+        <p>Thân: S1 (độ lồi sẹo), S2–S4 (màu vỏ/biểu bì) …</p>
+        <p>Củ: R1–R5 (cổ củ, hình dạng, màu vỏ, màu thịt (R4), màu lụa), năng suất tươi, hàm lượng tinh bột, β-caroten.</p>
+
+        <h3>2.2.3. Phương pháp thu thập dữ liệu</h3>
+        <p>Dữ liệu hình thái được thu thập bằng các phương pháp đo đạc và quan sát trực tiếp tại hiện trường, kết hợp với các thiết bị hỗ trợ như thước cặp, kính lúp, máy ảnh kỹ thuật số và hệ thống đo màu chuẩn quốc tế (hệ Lab*). Đối với đặc điểm định tính như màu sắc, hình thái, trạng thái, dữ liệu được mã hóa theo hệ thống chuẩn quốc tế để đồng bộ hóa với các nghiên cứu và tài liệu tham khảo toàn cầu, đồng thời dễ dàng so sánh và đối chiếu.</p>
+        <p>Mỗi đặc điểm được quan sát trên mẫu gồm 3 cây riêng biệt cùng một giống, lặp lại 3 lần ở các vị trí khác nhau trong vườn khảo nghiệm, tổng cộng 9 cây cho mỗi giống, nhằm đảm bảo tính đại diện và độ tin cậy cao cho kết quả. Các quan sát được thực hiện chủ yếu khi cây đạt giai đoạn sinh trưởng mạnh từ 4–6 tháng tuổi, hoặc thời điểm thích hợp khác tùy đặc điểm khảo sát (ví dụ: quan sát củ sau thu hoạch).</p>
+        <p>Dưới đây là hướng dẫn đo cho các chỉ tiêu trọng yếu trong bảng 2 và các chỉ tiêu còn lại áp dụng nguyên tắc tương tự .</p>
+        <h4>Màu sắc (L1, L4, L6, S2–S4, R3, R4, R5)</h4>
+        <p>Cách đo: Dùng máy đo màu cầm tay (ví dụ Konica Minolta CR-400 hoặc tương đương) đo giá trị CIELab (L, a, b*)**; đồng thời ghi mã định tính theo thang CIAT.</p>
+        <p>Thời điểm: Lá/ thân đo ở điều kiện sáng chuẩn (trời không mưa, buổi sáng 9–11h), củ đo ngay sau thu hoạch trong điều kiện phòng.</p>
+        <p>Số mẫu: 3 lần đo trên mỗi cây/ vật mẫu, lấy giá trị trung bình. Hiệu chuẩn máy đo trước mỗi buổi làm việc bằng bảng trắng/standard.</p>
+        <h4>Lông ngắn trên lá đỉnh (L2)</h4>
+        <p>Cách đo: Chụp ảnh cận cảnh phần ngọn bằng máy ảnh kỹ thuật số với thước hiệu chuẩn; phân tích ảnh bằng ImageJ hoặc phần mềm xử lý ảnh để tính % diện tích có lông (thresholding + area fraction). Nếu không có ảnh, đánh giá bằng kính lúp cầm tay và chia bậc % theo thang đã mã hóa.</p>
+        <p>Số mẫu: 3 hình/ cây × 9 cây/ giống.</p>
+        <h4>Hình thái thùy & kích thước thùy (L3)</h4>
+        <p>Cách đo: Dùng thước kẹp (caliper) đo chiều dài thùy (đo từ gốc đến đầu thùy) và chiều rộng lớn nhất; tính tỷ lệ dài/rộng nếu cần. Ghi dạng thùy (mã 1–6) bằng quan sát.</p>
+        <p>Số mẫu: Lá giữa cây, 3 lá/ cây, 9 cây/ giống.</p>
+        <h4>Số lượng thùy (L5)</h4>
+        <p>Cách đo: Đếm trực tiếp số thùy trên lá giữa cây; ghi mã (3,5,7,9,11).</p>
+        <p>+ Số mẫu: 9 cây/ giống.</p>
+        <h4>Góc cuống (P2)</h4>
+        <p>Cách đo: Dùng inclinometer kỹ thuật số hoặc thước đo góc (protractor) đo góc giữa cuống và thân (độ); đo vào buổi không gió, 3 lần/ cây. Ghi đồng thời mã trạng thái (hướng lên, ngang, hướng xuống, bất định).</p>
+        <p>Số mẫu: 9 cây/ giống.</p>
+        <h4>Độ lồi sẹo lá (S1)</h4>
+        <p>Cách đo: Dùng thước kẹp đo chiều cao sẹo (mm) tại thân giữa (giữa 3–5 đốt tiếp nhau), lấy trung bình 3 điểm.</p>
+        <p>Số mẫu: 9 cây/ giống.</p>
+        <h4>Hình dạng củ, màu vỏ, màu thịt (R2–R4)</h4>
+        <p>Cách đo: Ghi mã hình dạng; đo kích thước (chiều dài/đường kính), cân củ tươi. Màu thịt đo CIELab và chụp ảnh tiêu chuẩn.</p>
+        <p>Số mẫu: 3 củ đại diện → 9 củ/ giống.</p>
+        <h4>Năng suất củ </h4>
+        <p>Cách đo: Thu hoạch toàn bộ 10 cây trong ô, cân trọng lượng củ tươi, quy đổi tấn/ha theo diện tích ô. Báo cáo mean ± SD trên 3 lặp.</p>
+        <p>Hàm lượng tinh bột (Y2) & β-caroten</p>
+        <p>Số mẫu: 3 củ lặp lại phân tích hóa học 2–3 lần (technical replicates).</p>
+
+        <h3>2.2.4. Phân tích thống kê và đánh giá độ ổn định</h3>
+        <p>*Dữ liệu sau khi thu thập được xử lý bằng các công cụ thống kê mô tả nhằm tổng hợp đặc điểm hình thái của từng giống. Ngoài ra, phân tích đa biến (Phân tích thành phần chính – PCA, phân tích cụm) được áp dụng để xác định các đặc điểm phân biệt chính giữa các giống và nhóm giống, hỗ trợ trong công tác phân loại và chọn giống mục tiêu: </p>
+        <h4>Mô hình thống kê (RCBD):</h4>
+        <p>Đối với mỗi tính trạng định lượng, chạy mô hình hỗn hợp: trait ~ genotype + (1 | block) với genotype là hiệu cố định, block là ngẫu nhiên. Nếu khảo nghiệm đa địa điểm, dùng mô hình hai nhân tố: trait ~ genotype * environment + (1 | block:environment).</p>
+        <p>Kiểm tra điều kiện ANOVA: chuẩn tắt phân phối phần dư (Shapiro-Wilk), đồng nhất phương sai (Levene/Bartlett). Nếu không thỏa điều kiện, tiến hành biến đổi (log, sqrt) hoặc áp dụng mô hình GLM tương ứng.</p>
+        <h4>So sánh nhiều cặp: </h4>
+        <p>Sau ANOVA, thực hiện Tukey HSD (α = 0.05) để nhóm các giống khác biệt. Báo cáo mean ± SD kèm ký tự nhóm (a, b, c).</p>
+        <h4>PCA & Clustering:</h4>
+        <p>trước khi PCA, chuẩn hóa (z-score) tất cả biến số định lượng; PCA lấy PC1, PC2 để minh họa; tính loading và % phương sai giải thích. Phân cụm dùng phương pháp Ward-D2 trên khoảng cách Euclid của dữ liệu chuẩn hóa.</p>
+        <p>Độ ổn định của từng đặc điểm được đánh giá dựa trên mức độ biến đổi chịu ảnh hưởng bởi môi trường, được phân loại thành: cao (ổn định, ít biến động), trung bình (biến động nhẹ) và thấp (chịu ảnh hưởng môi trường cao). Việc xác định này giúp lựa chọn các chỉ thị hình thái phù hợp cho công tác chọn giống, bảo tồn và nhân giống hiệu quả: </p>
+        <p>Tính CV% (SD/mean × 100) cho từng tính trạng; phân loại độ ổn định: CV < 10% (cao/ổn định), 10–20% (trung bình), >20% (thấp/nhạy G×E).</p>
+        <p>Tương quan & nhiều kiểm định: Tính tương quan Pearson giữa các tính trạng (ví dụ: R4 vs β-caroten, P2 vs năng suất); áp dụng điều chỉnh nhiều kiểm định (Benjamini-Hochberg FDR) khi cần để kiểm soát tỷ lệ sai dương giả.</p>
+        <p>Ngưỡng ý nghĩa: Thống nhất α = 0.05 (ý nghĩa), báo p-value thực tế; khi cần báo p < 0.01 hoặc p < 0.001.</p>
+
+        <h3>2.2.5. Ứng dụng và ý nghĩa nghiên cứu</h3>
+        <p>Bộ chỉ thị hình thái nâng cao này không chỉ phục vụ cho công tác mô tả, phân loại và nhận dạng giống sắn trong nghiên cứu khoa học mà còn hỗ trợ tích cực trong các chương trình chọn giống mới, bảo tồn tài nguyên gen, đánh giá khả năng thích nghi với môi trường và cải thiện năng suất, chất lượng cây trồng. Các chỉ tiêu có độ ổn định cao như màu sắc lá đỉnh, số lượng thùy lá, độ lồi sẹo lá, màu sắc lớp vỏ thân... được ưu tiên sử dụng để định danh và bảo vệ bản quyền giống.</p>
+
+        <h3>2.2.6. Phương pháp đánh giá kiểu hình</h3>
+        <p>* Hai mươi đặc điểm hình thái được ghi nhận theo:</p>
+
+        <h3>1.1 Màu sắc lá đỉnh (L1: 1–4)</h3>
+        <ul>
+            <li><strong>Ý nghĩa sinh học: </strong> Màu lá đỉnh phản ánh tình trạng sắc tố bảo vệ và khả năng thích nghi ban đầu của cây với môi trường.</li>
+            <li><strong>Ý nghĩa thang điểm:</strong></li>
+        </ul>
+                   <p><strong>1: Xanh nhạt — </strong> hàm lượng diệp lục (chlorophyll) thấp hơn, lá non sáng màu; có thể liên quan đến tốc độ sinh trưởng chậm hoặc điều kiện dinh dưỡng chưa tối ưu.</p>
+                   <p><strong>2: Xanh đậm  —  </strong> hàm lượng diệp lục cao, khả năng quang hợp mạnh; thường thấy ở giống khỏe hoặc điều kiện đất màu mỡ.</p>
+                   <p><strong>3: Xanh tía —  </strong> diệp lục kết hợp anthocyanin, giúp lá non chống lại tia UV và nhiệt độ thấp.</p>
+                   <p><strong>4: Đỏ tía —  </strong> hàm lượng anthocyanin cao, khả năng chống chịu stress môi trường tốt (nắng gắt, lạnh, khô hạn).</p>
+        
+        <h3>1.2 Lông ngắn trên lá đỉnh (L2: 0–1)</h3>
+        <ul>
+            <li><strong>Ý nghĩa sinh học: </strong> Lông lá là cấu trúc thích nghi quan trọng trong điều kiện khô hạn, nắng gắt hoặc áp lực sâu bệnh cao.</li>
+            <li><strong>Ý nghĩa thang điểm: </strong></li>
+        </ul>
+                   <p><strong>0: Không — </strong> bề mặt lá trơn, thoát hơi nước nhanh hơn, dễ bị côn trùng tấn công.</p>
+                   <p><strong>1: Có — </strong> lông che phủ hạn chế thoát hơi nước, bảo vệ mô non trước sâu bệnh và tác động cơ học.</p>
+      
+      <h3>2.1 Hình thái thùy trung tâm (L3: 1–6)</h3>
+      <ul>
+          <li><strong>Ý nghĩa sinh học: </strong> Hình dạng thùy lá ảnh hưởng trực tiếp đến khả năng hấp thu ánh sáng, thoát hơi nước và chống chịu mưa gió.</li>
+          <li><strong>Ý nghĩa thang điểm: </strong></li>
+      </ul>
+                   <p><strong>1: Trứng — </strong> Thùy lá rộng, bầu dục, diện tích quang hợp lớn nhưng dễ bị tổn thương.</p>
+                   <p><strong>2: Elip — </strong> Hình dạng cân đối, giúp tối ưu diện tích quang hợp và trao đổi khí.</p>
+                   <p><strong>3: Thẳng hẹp — </strong> Thùy lá nhỏ hẹp, thường thích nghi với môi trường khô hạn do giảm thoát nước.</p>
+                   <p><strong>4: Mũi mác — </strong> Dạng lá thuôn dài, có thể chống chịu tốt với gió và hạn.</p>
+                   <p><strong>5: Hơi bầu dục — </strong> Hình dáng trung gian, biểu hiện đặc trưng sinh trưởng đa dạng.</p>
+                   <p><strong>6: Trứng hẹp — </strong> Dạng lá nhỏ, thon dài, thường biểu hiện cho giống có sức chống chịu môi trường cao</p>
+
+
+      <h3>2.2 Màu sắc lá trưởng thành (L4: 1–4)</h3> 
+      <ul>
+        <li><strong>Ý nghĩa sinh học: </strong></li> Màu lá trưởng thành là chỉ tiêu dễ nhận biết ngoài đồng, giúp phân biệt giống và đánh giá mức độ thích nghi với điều kiện canh tác. Việc đo bằng hệ màu Lab* có thể giảm sai số đánh giá bằng mắt.
+        <li><strong>Ý nghĩa thang điểm: </strong></li>
+      </ul>
+                   <p><strong>1: Xanh nhạt — </strong> hàm lượng diệp lục thấp hơn, lá sáng màu, thường gặp ở giống sinh trưởng chậm hoặc điều kiện đất nghèo dinh dưỡng.</p>
+                   <p><strong>2: Xanh đậm — </strong> diệp lục dồi dào, hiệu suất quang hợp cao, thường ở giống khỏe hoặc điều kiện canh tác tốt.</p>
+                   <p><strong>3: Xanh tía — </strong> sự xuất hiện anthocyanin kết hợp với diệp lục, lá có ánh tím nhẹ, thường là phản ứng với nhiệt độ hoặc bức xạ mạnh.</p>
+                   <p><strong>4: Đỏ tía — </strong> anthocyanin tích lũy mạnh, lá có màu tím đỏ rõ, thường liên quan đến khả năng chống chịu stress môi trường (nắng gắt, lạnh) hoặc đặc điểm di truyền riêng của giống.</p>
+
+      <h3>2.3	Số lượng thùy lá (L5: 3, 5, 7, 9, 11)</h3>
+      <ul>
+        <li><strong>Ý nghĩa sinh học: </strong> Số lượng thùy lá là đặc điểm ít biến đổi bởi môi trường, rất hữu ích trong định danh giống. Ngoài ra, hình thái thùy lá có thể ảnh hưởng đến hiệu quả thu nhận ánh sáng và khả năng thoát hơi nước.</li>
+        <li><strong>Ý nghĩa thang điểm</strong></li>
+     </ul>
+                  <p><strong>3 thùy — </strong> lá ít thùy, phiến rộng, thường gặp ở giống ít phân cành.</p>
+                  <p><strong>5 thùy — </strong> dạng trung gian, phổ biến ở một số giống cải tiến.</p>
+                  <p><strong>7 thùy — </strong> dạng phổ biến nhất ở giống truyền thống, cân bằng giữa diện tích lá và hiệu quả quang hợp.</p>
+                  <p><strong>9 thùy — </strong> lá nhiều thùy, phiến hẹp hơn, thường gặp ở giống sinh trưởng mạnh hoặc thích nghi tốt với cường độ sáng cao.</p>
+                  <p><strong>11 thùy — </strong> lá cực nhiều thùy, phiến rất hẹp, hiếm gặp, có thể là đặc trưng nhận dạng giống đặc hữu.</p>
+
+     <h3>2.4 Màu sắc gân lá (L6: 1–4)</h3>
+     <ul>
+       <li><strong>Ý nghĩa sinh học:</strong> Màu gân lá là chỉ thị hình thái rõ ràng, ít thay đổi nhanh, giúp phân biệt giống ngay cả khi phiến lá có màu tương tự nhau. Sự hiện diện anthocyanin trong gân lá có thể liên quan đến khả năng bảo vệ mạch dẫn trước tác nhân oxy hóa hoặc sâu bệnh.</li>
+       <li><strong>Ý nghĩa thang điểm:</strong></li>
+     </ul>
+                 <p><strong>1: Xanh — </strong> Gân lá chỉ chứa diệp lục, biểu hiện đặc điểm sinh lý bình thường.</p>
+                 <p><strong>2: Xanh hơi đỏ — </strong> Có sự pha trộn nhẹ sắc tố anthocyanin ở gân, dấu hiệu sinh lý ứng phó ánh sáng.</p>
+                 <p><strong>3: Đỏ — </strong> Gân lá mang sắc tố đỏ rõ ràng, thường là đặc điểm phân biệt giống hoặc phản ứng stress.</p>
+                 <p><strong>4: Đỏ tía — </strong> Sắc tố đỏ tía đậm, tăng cường khả năng chống oxy hóa và bảo vệ mô lá.</p>
+
+    <h3>3.1 Màu sắc cuống lá (P1: 1–6)</h3>
+    <ul>
+        <li><strong>Ý nghĩa sinh học: </strong> Màu cuống lá thường ổn định trong suốt vòng đời cây, dùng tốt cho nhận dạng giống. Sự đậm nhạt của sắc tố có thể là phản ứng thích nghi với bức xạ mặt trời hoặc điều kiện khô hạn.</li> 
+        <li><strong>Ý nghĩa thang điểm:</strong></li>
+    </ul>
+                 <p> <strong>1: Xanh nhạt — </strong> ít hoặc không tích lũy anthocyanin, diệp lục chiếm ưu thế.</p>
+                 <p><strong>2: Xanh vàng — </strong> sắc tố carotenoid bắt đầu xuất hiện, thường thấy ở giống có khả năng chịu nắng tốt.</p>
+                 <p><strong>3: Hồng nhạt — </strong> lượng anthocyanin thấp, màu pha nhẹ vào mô cuống.</p>
+                 <p> <strong>4: Đỏ nhạt — </strong> anthocyanin tăng, dễ nhận biết từ xa.</p>
+                 <p><strong>5: Đỏ đậm — </strong> anthocyanin nhiều, cuống lá tương phản rõ với lá.</p>
+                 <p><strong>6: Tím — </strong> anthocyanin đạt mức cao nhất, thường gặp ở giống đặc hữu hoặc giống lai chọn lọc.</p>       
+                 
+    <h3>3.2	Góc cuống lá so với thân (P2: 1–4)</h3>
+    <ul>
+        <li><strong>Ý nghĩa sinh học:</strong>ống lá ảnh hưởng đến khả năng quang hợp, nhiệt độ lá và thoát hơi nước. Đặc điểm này hữu ích khi đánh giá khả năng thích nghi sinh thái của giống.</li>
+        <li><strong>Ý nghĩa thang điểm: </strong></li>
+    </ul>
+                 <p><strong>1: Hướng lên — </strong> Cuống lá dựng thẳng, tối ưu hóa khả năng nhận sáng.</p>
+                 <p><strong>2: Ngang —</strong>Cuống lá ngang thân, giảm thiểu thoát hơi nước, phù hợp với khí hậu khô nóng.</p>
+                 <p><strong>3: Hướng xuống — </strong> Cuống lá hướng xuống dưới, thường ít gặp, có thể giảm ánh sáng trực tiếp.</p>
+                 <p><strong>4: Bất định — </strong>Góc cuống lá không ổn định, phụ thuộc nhiều vào yếu tố môi trường.</p>
+                
+    <h3>4.1	Độ lồi sẹo lá (S1: 1–3)</h3>
+    <ul>
+        <li><strong>Ý nghĩa sinh học:</strong>Độ lồi sẹo lá phản ánh độ dày vỏ và sự phát triển của tầng mô dẫn; sẹo lớn có thể là đặc điểm di truyền hoặc dấu hiệu của sự phát triển mạnh ở các mấu thân.</li>
+        <li><strong>Ý nghĩa thang điểm: </strong></li>
+    </ul>
+                 <p><strong>1: Ngắn (0–3 mm) — </strong> Sẹo lá nhỏ, thân mịn, có thể dễ bị sâu bệnh đục thân.</p>
+                 <p><strong>2: Trung bình (4–8 mm) — </strong>Sẹo lá rõ ràng, thân khỏe, khả năng chống chịu sâu đục tăng.</p>
+                 <p><strong>3: Dài (≥8 mm) — </strong>Sẹo lá lớn, cấu trúc thân xù xì, tăng cường thông khí mô vỏ và chống côn trùng hiệu quả.</p>
+
+    
+    <h3>4.2	Màu sắc lớp ngoài vỏ thân (S2: 1–8)</h3>
+    <ul>
+        <li><strong>Ý nghĩa sinh học: </strong> Màu lớp vỏ ngoài phản ánh sự tích lũy sắc tố và hợp chất bảo vệ (carotenoid, anthocyanin, tanin, lignin), ảnh hưởng đến khả năng chịu hạn, sâu bệnh và bức xạ.</li>
+        <li><strong>Ý nghĩa thang điểm:</strong></li>
+    </ul>
+                 <p> <strong>1: Cam – </strong> nhiều carotenoid, thường gặp ở một số giống sắn vàng.</p>
+                 <p><strong>2: Vàng phớt xanh – </strong>chuyển tiếp giữa sắc vàng và xanh, hiếm gặp.</p>
+                 <p><strong>3: Vàng – </strong>hàm lượng carotenoid cao, giúp nhận dạng giống vàng.</p>
+                 <p> <strong>4: Nâu nhạt – </strong> chứa tannin thấp, thân ít lignin hơn nâu đậm.</p>
+                 <p><strong>5: Màu bạc – </strong>phản quang mạnh, giảm hấp thu nhiệt, thường ở giống chịu nóng.</p>
+                 <p><strong>6: Xám nhạt– </strong> lớp bần dày, giảm mất nước, chịu hạn tốt.</p>
+                 <p><strong>7: Nâu đậm – </strong>hàm lượng lignin và tannin cao, thân cứng, chống sâu bệnh tốt.</p>
+                 <p><strong>8 : Xám đậm— </strong>lớp vỏ già, lignin hóa cao, bền cơ học và chống chịu tốt.</p>
+
+            
+    <h3>4.3	 Màu sắc lớp trong vỏ thân (S3: 1–5)</h3>
+    <ul>
+        <li><strong>Ý nghĩa sinh học: </strong> Phản ánh thành phần hóa học của mô vỏ, liên quan đến độ bền, khả năng chống chịu và sức khỏe tổng thể của thân.</li>
+        <li><strong>Ý nghĩa thang điểm:</strong></li>
+    </ul>
+                 <p> <strong>1:Da Cam – </strong> nhiều carotenoid, có thể liên quan đến khả năng chống oxy hóa.</p>
+                 <p><strong>2: Xanh nhạt – </strong> hàm lượng diệp lục thấp, mô mềm sáng màu.</p>
+                 <p><strong>3: Xanh đậm – </strong>diệp lục và anthocyanin nhiều hơn, bền với ánh sáng mạnh.</p>
+                 <p> <strong>4: Vàng nhạt– </strong> hàm lượng sắc tố trung bình.</p>
+                 <p><strong>5: Nâu nhạt </strong>chứa một phần tannin, chống sâu bệnh vừa phải.</p>
+
+    
+    <h3>4.4 Màu sắc lớp biểu bì thân (S4: 1–5)</h3>
+    <ul>
+        <li><strong>Ý nghĩa sinh học: </strong> Màu biểu bì phản ánh cấu tạo và hoạt tính sinh học của lớp bảo vệ ngoài cùng của thân.</li>
+        <li><strong>Ý nghĩa thang điểm:</strong></li>
+    </ul>
+                 <p> <strong>1: Kem – </strong> biểu bì mỏng, ít sắc tố, dễ quan sát mô bên trong.</p>
+                 <p><strong>2: Nâu nhạt – </strong> có một ít anthocyanin hoặc tannin, bảo vệ trung bình.</p>
+                 <p><strong>3: Nâu đậm – </strong>nhiều anthocyanin/tannin, bảo vệ tốt hơn trước UV & côn trùng.</p>
+                 <p> <strong>4: Da cam – </strong>carotenoid nhiều, có khả năng phản xạ ánh sáng.</p>
+                 <p><strong>5: xanh nhạt/đậm– </strong> diệp lục cao, thân có khả năng quang hợp bổ sung.</p>
+
+    <h3>4.5 Dạng phát triển thân (S5: 1–2)</h3>
+    <ul>
+        <li><strong>Ý nghĩa sinh học: </strong> Ảnh hưởng đến phân bố tán lá, khả năng chống gió và hiệu quả sử dụng ánh sáng.</li>
+        <li><strong>Ý nghĩa thang điểm:</strong></li>
+    </ul>
+                 <p> <strong>1: Thẳng — </strong>Thân cây phát triển theo trục thẳng đứng, thuận lợi cho mật độ trồng và chăm sóc.</p>
+                 <p><strong>2: Zic zắc — </strong>Thân cây phát triển ngoằn ngoèo, có thể tăng khả năng chống đổ ngã nhưng ảnh hưởng mật độ.</p>
+
+
+    <h3>4.6 Phân cành (S6: 0–1)</h3>
+    <ul>
+        <li><strong>Ý nghĩa sinh học: </strong> Liên quan đến phân bố sinh khối giữa phần trên và phần dưới mặt đất.</li>
+        <li><strong>Ý nghĩa thang điểm:</strong></li>
+    </ul>
+                 <p> <strong>0: Không phân cành —</strong>Thân chính đơn độc, tập trung sinh trưởng.</p>
+                 <p><strong>1: Có phân cành —</strong>Cây phát triển nhiều cành, có thể tăng tán lá, ảnh hưởng tới năng suất và kiểu hình cây.</p>
+
+
+     <h3>4.7 Hình thái tán cây (S7: 1–4)</h3>
+    <ul>
+        <li><strong>Ý nghĩa sinh học: </strong> Tán cây ảnh hưởng trực tiếp đến hiệu quả quang hợp, cạnh tranh ánh sáng và quản lý cỏ dại.</li>
+        <li><strong>Ý nghĩa thang điểm:</strong></li>
+    </ul>
+                 <p> <strong>1: Nhỏ gọn — </strong>Tán cây tập trung, thuận lợi cho quản lý và thu hoạch.</p>
+                 <p><strong>2: Mở — </strong> Tán cây phân bố rộng, tăng diện tích che phủ.</p>
+                 <p><strong>3: Hình ô — </strong>Tán cây tạo hình dạng gần tròn hoặc ô dù, giúp che phủ đất tốt, hạn chế cỏ dại.</p>
+                 <p> <strong>4: Trụ — </strong>Tán cây thẳng đứng, ít lan rộng, phù hợp với trồng mật độ cao.</p>
+
+        
+    <h3>5.1	Cổ củ (R1: 0–1)</h3>
+    <ul>
+        <li><strong>Ý nghĩa sinh học: </strong> Cổ củ ảnh hưởng đến phương pháp thu hoạch và khả năng thích nghi đất.</li>
+        <li><strong>Ý nghĩa thang điểm:</strong></li>
+    </ul>
+                 <p> <strong>0: Không có cổ củ —</strong>Củ bám sát thân, khó nhổ bằng máy.</p>
+                 <p><strong>1: Có cổ củ — </strong> Cổ củ phát triển rõ, giúp thu hoạch cơ giới dễ dàng hơn.</p>
+
+    <h3>5.2 Hình dạng củ (R2: 1–4)</h3>
+    <ul>
+        <li><strong>Ý nghĩa sinh học: </strong> Hình dạng củ là một đặc điểm hình thái quan trọng, ảnh hưởng trực tiếp đến khả năng thu hoạch, bảo quản, vận chuyển và giá trị thương mại của giống sắn. Củ có hình dạng đồng đều, ít khuyết tật sẽ dễ sơ chế, giảm hao hụt và được thị trường ưa chuộng hơn. Ngược lại, hình dạng bất thường thường gây khó khăn trong chế biến cơ giới và làm giảm năng suất thương phẩm.</li>
+        <li><strong>Ý nghĩa thang điểm:</strong></li>
+    </ul>
+                 <p> <strong>1:  Hình nón - </strong>Củ thuôn dài, đầu củ nhỏ, thích hợp bảo quản và vận chuyển nhưng hiệu suất cắt gọt thấp hơn.</p>
+                 <p><strong>2 : Nón trụ - </strong>Củ gần hình trụ nhưng hơi thuôn về một đầu, thường được đánh giá cao nhờ sự cân đối, dễ sơ chế.</p>
+                 <p><strong>3: Hình trụ - </strong>Củ đều, ít chênh lệch đường kính giữa hai đầu, tối ưu cho chế biến công nghiệp nhờ giảm hao hụt.</p>
+                 <p> <strong>4 : Dị hình - </strong>Củ có hình dạng bất thường, phân nhánh hoặc cong, gây khó khăn khi cơ giới hóa thu hoạch và giảm giá trị thương mại.</p>
+
+    
+    <h3>5.3 Màu sắc vỏ củ (R3: 1–3)</h3>
+    <ul>
+        <li><strong>Ý nghĩa sinh học: </strong> Màu vỏ củ phản ánh đặc điểm di truyền và thị hiếu thị trường, ảnh hưởng trực tiếp đến khả năng tiêu thụ và phân loại giống.</li>
+        <li><strong>Ý nghĩa thang điểm:</strong></li>
+    </ul>
+                 <p> <strong>1: Kem (trắng ngà) — </strong>Màu nhạt, thường gặp ở giống thương mại phổ biến, được ưa chuộng ở nhiều thị trường vì dễ chế biến và ít đổi màu khi bảo quản.</p>
+                 <p><strong>2: Nâu nhạt — </strong>Sắc tố bề mặt trung bình, vỏ có độ bền cao hơn, khả năng chống xước và hư hỏng cơ học tốt hơn.</p>
+                 <p><strong>3: Nâu đậm — </strong>Hàm lượng sắc tố tự nhiên cao, thường liên quan đến khả năng chống sâu bệnh tốt hơn, nhưng có thể kén thị trường do màu sẫm.</p>
+
+
+    <h3>5.4 Màu sắc thịt củ (R4: 1–5)</h3>
+    <ul>
+        <li><strong>Ý nghĩa sinh học: </strong> Màu thịt củ liên quan trực tiếp đến hàm lượng dinh dưỡng (đặc biệt là β-caroten và anthocyanin), ảnh hưởng đến giá trị thương phẩm và sức khỏe người tiêu dùng.</li>
+        <li><strong>Ý nghĩa thang điểm:</strong></li>
+    </ul>
+                 <p> <strong>1: Trắng — </strong>Hàm lượng β-caroten rất thấp, phù hợp cho chế biến tinh bột, thường gặp ở giống truyền thống.</p>
+                 <p><strong>2: Trắng ngà — </strong> Có chút sắc vàng nhẹ, hàm lượng β-caroten thấp đến trung bình.</p>
+                 <p><strong>3: Vàng nhạt — </strong>Hàm lượng β-caroten khá cao, giá trị dinh dưỡng tốt, được nhiều thị trường ưa chuộng.</p>
+                 <p> <strong>4: Vàng đậm — </strong>Hàm lượng β-caroten rất cao, giàu dinh dưỡng, có lợi cho sức khỏe mắt và chống oxy hóa.</p>
+                 <p><strong>5: Hồng — </strong>Chứa anthocyanin cùng với carotenoid, vừa có giá trị dinh dưỡng vừa mang màu sắc bắt mắt, phù hợp cho tiêu thụ tươi và chế biến sản phẩm đặc biệt.</p>
+
+    <h3>5.5 Màu sắc vỏ lụa củ (R5: 1–5)</h3>
+    <ul>
+        <li><strong>Ý nghĩa sinh học: </strong> Vỏ lụa là lớp mỏng bao bọc bên ngoài củ (dưới vỏ chính), ảnh hưởng đến độ tươi, khả năng chống mất nước và thời gian bảo quản.</li>
+        <li><strong>Ý nghĩa thang điểm:</strong></li>
+    </ul>
+                 <p> <strong>1: Trắng — </strong>Màu sáng, ít sắc tố, thường mềm và dễ bị tổn thương cơ học.</p>
+                 <p><strong>2: Trắng ngà — </strong> Bền hơn vỏ trắng, ít bị đổi màu khi bảo quản.</p>
+                 <p><strong>3: Vàng nhạt — </strong>Hàm lượng sắc tố cao hơn, khả năng bảo quản tốt hơn.</p>
+                 <p> <strong>4: Vàng đậm — </strong>Vỏ dày hơn, khả năng chống hư hỏng và sâu bệnh tốt, bảo quản lâu.</p>
+                 <p><strong>5: Nâu — </strong>Chứa anthocyanin, giúp bảo vệ tốt hơn khỏi oxy hóa, đồng thời là đặc điểm nhận dạng giống đặc trưng.</p>
+
+    
+    <img src="bang-1.img" alt="Bảng 20 đặc điểm hình thái đặc trưng để mô tả các giống sắn" class="responsive-img">
+
+    <p><strong>* Chú thích ký hiệu hệ màu CIELAB (L*, a*, b*)</strong></p>
+    <p><strong>L*:</strong> Độ sáng của màu sắc, thang từ 0 (đen hoàn toàn) đến 100 (trắng hoàn toàn).</p>
+    <p><strong>a:</strong> Thang màu đỏ/xanh lá, giá trị dương biểu thị sắc đỏ, giá trị âm biểu thị sắc xanh lá.</p>
+    <p><strong> b*</strong> Thang màu vàng/xanh dương, giá trị dương biểu thị sắc vàng, giá trị âm biểu thị sắc xanh dương.</p>
+    <p>Hệ màu này được sử dụng để đo màu sắc một cách khách quan, định lượng và phù hợp cho các phân tích thống kê trong nghiên cứu thực vật.</p>
+    
+    <h3>* Độ ổn định</h3>
+    <img src="bang-3.img" alt="Bảng độ ổn định"class="responsive-img">
+
+    <p>* Đa dạng hình thái của các giống sắn phổ biến ở Việt Nam và ý nghĩa trong phân nhóm, nhận dạng giống:</p>
+    <img src="bang-4.img" alt="Đa dạng hình thái của 6 giống sắn phổ biến ở Việt Nam" class="responsive-img">
+
+    <p>* Bộ dữ liệu trên phản ánh sự đa dạng hình thái rõ rệt giữa các giống sắn, cho phép phân nhóm và định danh giống một cách chính xác.</p>
+    <p><strong>Nhóm lá xanh đậm – ổn định màu lá</strong></p>
+    <p>Các giống KM94, KM140, XVP có lá đỉnh và lá trưởng thành đều mang màu xanh đậm (L1, L4 = 2).</p>
+    <p>Đây là nhóm có khả năng duy trì hiệu suất quang hợp tốt trong điều kiện nắng gắt, đồng thời màu lá ít biến động theo môi trường.</p>
+    <p><strong>Nhóm giàu anthocyanin – màu lá tía/đỏ tía</strong></p>
+    <p>Các giống SM937-26, KM98-7, KM98-5 có lá đỉnh mang sắc tía hoặc đỏ tía (L1 = 3–4) và gân lá đỏ/đỏ tía (L6 = 3–4).</p>
+    <p>Hàm lượng anthocyanin cao thường liên quan đến khả năng chống chịu stress ánh sáng và kháng sâu bệnh.</p>
+    <p><strong>Đặc điểm phân biệt mạnh nhất giữa các giống: </strong>Hình dạng thùy trung tâm (L3) và số thùy lá (L5) là chỉ thị nổi bật:</p>
+    <p>KM140: dạng mũi mác (L3 = 4), số thùy nhiều (9).</p>
+    <p>XVP: dạng hơi bầu dục (L3 = 5), số thùy ít (5).</p>
+    <p>Chỉ cần quan sát hai đặc điểm này ngoài đồng đã có thể nhận dạng nhanh.</p>
+    <p><strong>Đặc điểm thân và cuống ổn định</strong></p>
+    <P>Màu cuống lá (P1) và màu vỏ thân (S2, S3) ít chịu tác động môi trường, giúp định danh nhanh ngay cả khi lá đã rụng hoặc đổi màu.</P>
+    <p><strong>Đặc điểm củ và tiềm năng sử dụng</strong></p>
+    <p><strong>SM937-26: </strong>vỏ củ nâu đậm (R3 = 3), thịt vàng/hồng (R4 = 4) → tiềm năng cho chế biến công nghiệp.</p>
+    <p><strong>KM94, XVP: </strong> thịt trắng (R4 = 1) → thích hợp cho sản xuất tinh bột chất lượng cao.</p>
+    <p><strong>Kết quả phân tích PCA sơ bộ</strong></p>
+    <p>Các biến L1, L3, L5, L6, P1, R4 có đóng góp phân biệt giống >65% và hệ số biến động (CV%) thấp.</p>
+    <p>Đây là tập chỉ thị lõi nên ưu tiên sử dụng trong công tác nhận dạng, chọn giống và bảo tồn nguồn gen.</p>
+
+
+
+      <h2>Giống KM94</h2>
+
+      <img src="KM 94.img" alt="Giống sắn KM94" class="responsive-img">
+      <ul>
+        <li><strong>Lá:</strong> Lá đỉnh màu xanh tía, 7 thùy; thùy trung tâm hình mũi mác; gân và cuống lá xanh hơi đỏ.</li>
+        <li><strong>Thân:</strong> Vỏ thân nâu nhạt, biểu bì xanh đậm; thân thẳng ở ngọn, cong ở gốc; dạng cây mở, phân cành.</li>
+        <li><strong>Củ:</strong> Dạng hình nón, vỏ củ nâu nhạt; thịt và vỏ lụa màu trắng; không có cổ củ.</li>
+      </ul>
+
+      <h2>Giống KM98-7</h2>
+      <img src="KM98-7.img" alt="Giống sắn KM98-7" class="responsive-img">
+      <ul>
+        <li><strong>Lá:</strong> Lá đỉnh xanh nhạt, 9 thùy, thùy trung tâm hẹp và thẳng, không có lông.</li>
+        <li><strong>Thân:</strong> Thân thẳng, dáng mở; vỏ nâu nhạt.</li>
+        <li><strong>Củ:</strong> Dạng trụ, thịt kem; không có cổ củ.</li>
+      </ul>
+
+      <h2>Giống KM98-5</h2>
+      <img src="KM 98-5.img" alt="Giống sắn KM98-5" class="responsive-img">
+      <ul>
+        <li><strong>Lá:</strong> Lá đỉnh xanh nhạt, 5 thùy, không có lông.</li>
+        <li><strong>Thân:</strong> Thân hơi cong, phân nhánh nhẹ; vỏ ngoài nâu nhạt, trong màu kem.</li>
+        <li><strong>Củ:</strong> Dạng trụ, bề mặt kem, thịt củ kem; không có cổ củ.</li>
+      </ul>
+
+      <h2>Giống KM140</h2>
+      <img src="KM 140.img" alt="Giống sắn KM140" class="responsive-img">
+      <ul>
+        <li><strong>Lá:</strong> Lá đỉnh đỏ tía, xanh nhạt, có lông, 7 thùy; thuộc nhóm A2.</li>
+        <li><strong>Thân:</strong> Thân thẳng, biểu bì xanh đậm, vỏ ngoài và trong đều nâu nhạt.</li>
+        <li><strong>Củ:</strong> Dạng trụ, vỏ nâu nhạt, thịt và vỏ lụa trắng; không có cổ củ.</li>
+      </ul>
+
+      <h2>Giống SM937-26</h2>
+      <img src="SM937-26." alt="Giống sắn SM937-26" class="responsive-img">
+      <ul>
+        <li><strong>Lá:</strong> Lá đỉnh đỏ tía, xanh nhạt, có lông, thuộc nhóm A2.</li>
+        <li><strong>Củ:</strong> Có cổ củ, dạng củ dị hình, vỏ củ nâu đậm, thịt và vỏ lụa trắng.</li>
+      </ul>
+
+      <h2>Giống XVP (Xanh Vĩnh Phúc)</h2>
+      <img src="Giống xvp(Xanh vĩnh phúc).img" alt="Giống sắn XVP" class="responsive-img">
+      <ul>
+        <li><strong>Lá:</strong> Lá đỉnh xanh tím, không có lông; thuộc nhóm C1.</li>
+        <li><strong>Thân:</strong> Thân nâu nhạt, biểu bì xanh đậm.</li>
+        <li><strong>Củ:</strong> Dạng trụ, không có cổ củ, thịt và vỏ lụa củ màu kem.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
