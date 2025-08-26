@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giải đáp thắc mắc</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1><i class="fas fa-comments"></i> Giải đáp thắc mắc</h1>
+      <nav class="nav">
+        <a href="index.html">Trang chủ</a>
+        <a href="rep-sap.html">Rệp sáp</a>
+        <a href="giong-san.html">Giống sắn</a>
+        <a href="giai-dap.html" class="active">Giải đáp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Gửi câu hỏi của bạn</h2>
+      <p>Nếu bạn có thắc mắc về rệp sáp, giống sắn, hoặc kỹ thuật canh tác, hãy trò chuyện với chúng tôi qua hộp thoại bên dưới:</p>
+      <p><strong>Hệ thống hỗ trợ qua:</strong></p>
+      <ul>
+        <li><i class="fab fa-facebook-messenger"></i> Facebook Messenger</li>
+        <li><i class="fas fa-robot"></i> Chatbot tự động</li>
+      </ul>
+      <p>Nếu khung chat không hiển thị, vui lòng kiểm tra kết nối mạng hoặc làm mới trang.</p>
+    </section>
+  </main>
+
+  <!-- Nhúng Messenger Plugin (thay YOUR_PAGE_ID bằng ID thực tế) -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" 
+    src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js"></script>
+
+  <div class="fb-customerchat"
+    attribution="biz_inbox"
+    page_id="782642434926099"
+    theme_color="#00b341"
+    logged_in_greeting="Chào bạn! Bạn cần tư vấn gì ạ?"
+    logged_out_greeting="Chào bạn! Bạn cần tư vấn gì ạ?">
+  </div>
+</body>
+</html>
